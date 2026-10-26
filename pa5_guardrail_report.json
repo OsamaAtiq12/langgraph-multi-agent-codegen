@@ -1,0 +1,15 @@
+{
+  "pii_at_director": {
+    "blocked_or_redacted": true,
+    "patterns_matched": [
+      "email",
+      "password_field",
+      "api_credential"
+    ]
+  },
+  "pii_demo_redaction": {
+    "blocked_or_redacted": true,
+    "sample_input_redacted": "Contact [REDACTED_EMAIL] [REDACTED_PASSWORD_FIELD] [REDACTED_API_CREDENTIAL]",
+    "note": "Task 5 JSON deliverable (deterministic demo)"
+  }
+}
